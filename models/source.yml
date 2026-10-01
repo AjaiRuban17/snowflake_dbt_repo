@@ -1,0 +1,8 @@
+version: 1
+
+sources:
+  - name: raw
+    database: DBT_TUTORIAL
+    schema: DBT_TUTORIAL_SCHEMA
+    tables:
+      - name: CLIENT_RAW
